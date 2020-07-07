@@ -1,0 +1,40 @@
+header {
+  padding: .5rem 0 .5rem 16%;
+  background-color: lightgrey;
+  font-size: 1.3rem;
+}
+
+body{
+  margin: 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 30%;
+  display: inline-block;
+  margin: .5rem;
+  text-align: center;
+  transition: .3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: .2rem 1rem;
+}
+
+.list-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer{
+  padding: 1rem 0 1rem 16%;
+  background-color: lightgrey;
+  font-size: .9rem;
+  color: #ffff;
+}
